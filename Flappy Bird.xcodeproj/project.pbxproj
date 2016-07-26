@@ -58,16 +58,24 @@
 		233E05F21D36BB180032EAC4 /* Flappy Bird */ = {
 			isa = PBXGroup;
 			children = (
-				233E05F31D36BB180032EAC4 /* AppDelegate.swift */,
-				233E05F51D36BB180032EAC4 /* GameScene.sks */,
+				239F07301D468DDD00AEF301 /* Supporting Files */,
 				233E05F71D36BB180032EAC4 /* GameScene.swift */,
 				233E05F91D36BB180032EAC4 /* GameViewController.swift */,
 				233E05FB1D36BB180032EAC4 /* Main.storyboard */,
+			);
+			path = "Flappy Bird";
+			sourceTree = "<group>";
+		};
+		239F07301D468DDD00AEF301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				233E05F31D36BB180032EAC4 /* AppDelegate.swift */,
+				233E05F51D36BB180032EAC4 /* GameScene.sks */,
 				233E05FE1D36BB180032EAC4 /* Assets.xcassets */,
 				233E06001D36BB180032EAC4 /* LaunchScreen.storyboard */,
 				233E06031D36BB180032EAC4 /* Info.plist */,
 			);
-			path = "Flappy Bird";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +307,7 @@
 				233E06081D36BB180032EAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
